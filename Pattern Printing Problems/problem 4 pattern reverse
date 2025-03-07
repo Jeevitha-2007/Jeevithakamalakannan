@@ -1,0 +1,14 @@
+Sample 1:
+Input:
+n = 4
+Expected output:
+4321
+321
+21
+1
+#Code
+N=int(input("enter:))
+for i in range(N,0,-1):
+    for j in range(i,0,-1):
+        print(j,end="")
+    print()
