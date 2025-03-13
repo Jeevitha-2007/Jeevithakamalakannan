@@ -1,0 +1,11 @@
+Problem Link https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
+class Solution:
+    def get_min_max(self, arr):
+        min=arr[0]
+        max=arr[0]
+        for i in range(0,len(arr)):
+            if min>arr[i]:
+                min=arr[i]
+            if max<arr[i]:
+                max=arr[i]
+        return min,max
