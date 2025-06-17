@@ -1,0 +1,15 @@
+Prob 1 : Write a program that takes an integer, then a string, then a char from the user and prints them in the screen.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    char ch;
+    string str;
+    cout<<"enter";
+    cin>>num>>ch>>str;
+    cout<<num<<endl<<ch<<endl<<str<<endl;
+    return 0;
+}
+ 
