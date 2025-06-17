@@ -1,0 +1,20 @@
+Prob 2: Write a program to check whether a triangle can be formed with the given values for the angles.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    int res;
+    cout<<"enter the angle";
+    cin>>a>>b>>c;
+    res=a+b+c;
+    if(res==180){
+        cout<<"triangle can be formed";
+    }
+    else{
+        cout<<"triangle cannot be formed";
+    }
+    return 0;
+    
+}
+ 
