@@ -1,0 +1,17 @@
+Write a program to take x and print multiples of x till 1000.
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x,i;
+    cout<<"enter";
+    cin>>x;
+    for(i=x;i<=1000;i=i+x){
+        cout<<i<<endl;
+        
+    }
+
+    return 0;
+}
